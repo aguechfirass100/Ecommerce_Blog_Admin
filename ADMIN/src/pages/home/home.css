@@ -1,0 +1,17 @@
+.home {
+    flex: 4;
+  }
+  
+  .homeWidgets {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    .homeWidgets {
+      flex-direction: column;
+      margin: 10px;
+    }
+  }
+  

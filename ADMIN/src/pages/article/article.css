@@ -1,0 +1,144 @@
+.article {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .articleTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .articleTop {
+    display: flex;
+  }
+  
+  .articleTopLeft,
+  .articleTopRight {
+    flex: 1;
+  }
+  
+  .articleTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .articleInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .articleInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .articleName {
+    font-weight: 600;
+  }
+  
+  .articleInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .articleInfoItem {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .articleInfoKey {
+    margin-right: 10px;
+  }
+  
+  .articleInfoValue {
+    font-weight: 300;
+  }
+  
+  .articleBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .articleForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .articleFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .articleFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .articleFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .articleFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .articleUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .articleFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .articleUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .articleButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .selectImg {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 139, 79);
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .uploadImg {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 137, 139);
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    width: 60px;
+  }

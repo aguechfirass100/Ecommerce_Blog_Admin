@@ -1,0 +1,159 @@
+.widgetLg {
+  flex: 2;
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  background-color: white;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.widgetLgList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.widgetLgItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgDate,
+.widgetLgAmount {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.widgetLgStatus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.widgetLgButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.widgetLgButton.Delivered {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+
+.widgetLgButton.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+
+.widgetLgButton.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+
+.widgetLgActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.widgetLgArchiveButton {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.widgetLgReportContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.widgetLgReportButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2a7ade;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.widgetLgReportButton:hover {
+  background-color: #1e62a8;
+}
+
+.widgetLgItem.archived {
+  background-color: #e8e8e8;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .widgetLg {
+    padding: 10px;
+  }
+
+  .widgetLgTitle {
+    font-size: 18px;
+  }
+
+  .widgetLgList {
+    grid-gap: 15px;
+  }
+
+  .widgetLgImg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .widgetLgDate,
+  .widgetLgAmount {
+    font-size: 12px;
+  }
+
+  .widgetLgButton {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .widgetLgArchiveButton {
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+
+  .widgetLgReportButton {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
